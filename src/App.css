@@ -1,5 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@900&family=Special+Elite&display=swap');
+
+body {
+  font-family: 'Special Elite', cursive;
+  /*background-image: url("media/green-christmas-background.jpg");*/
+  /*background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),*/
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+
+  /*url("media/green-christmas-background.jpg");*/
+  url('https://cdn.pixabay.com/photo/2017/12/19/12/21/lights-3027902_1280.jpg');
+
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Big Shoulders Inline Text', cursive;
+}
+
 .App {
+  margin: 2rem;
+  background-color: rgba(0,0,0, 0.9);
+  padding: 2rem;
   text-align: center;
+  color: greenyellow;
 }
 
 .App-logo {
@@ -13,26 +34,11 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#menu {
+  color:red;
 }
 
-.App-link {
-  color: #61dafb;
+a{
+  color: aquamarine;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
