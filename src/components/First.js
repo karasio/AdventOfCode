@@ -297,7 +297,13 @@ function First({ clicked, handleClick, resourceArray }) {
       className="day"
       onClick={() => handleClick(1)}
     >
-      {clicked === 1 ? <div>{renderTwos()}{renderThrees()} </div> : <div className="bigNum">1</div>}
+      {clicked === 1 ?
+        <div>
+          {renderTwos()}
+          {renderThrees()}
+        </div>
+        :
+        <div className="bigNum">1</div>}
     </div>
   )
 }

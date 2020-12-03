@@ -4,12 +4,10 @@
     <list default="true" id="358b1c37-63d0-43f5-a191-9a7c484328d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/First.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/First.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Second.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Second.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/numbers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/01.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Third.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Third.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +93,8 @@
       <option name="presentableId" value="Default" />
       <updated>1606817421969</updated>
       <workItem from="1606817425131" duration="19249000" />
-      <workItem from="1606918431663" duration="8382000" />
+      <workItem from="1606918431663" duration="8453000" />
+      <workItem from="1607004184521" duration="5434000" />
     </task>
     <servers />
   </component>
@@ -127,6 +126,10 @@
       <screen x="25" y="23" width="1655" height="1027" />
     </state>
     <state x="58" y="223" key="SettingsEditor/25.23.1655.1027@25.23.1655.1027" timestamp="1606826610701" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1607007107659">
+      <screen x="25" y="23" width="1655" height="1027" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/25.23.1655.1027@25.23.1655.1027" timestamp="1607007107659" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -134,7 +137,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/Second.js</url>
           <line>26</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

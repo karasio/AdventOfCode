@@ -29,9 +29,6 @@ import Twentyfourth from "./components/Twentyfourth";
 
 function App() {
   const [clicked, setClicked] = useState(null);
-  const [resourceArray, setResourceArray] = useState([]);
-  
-  
   
   const handleClick = (num) =>{
     console.log("handleClick with value: ", num);
@@ -39,41 +36,11 @@ function App() {
     clicked !== num ? setClicked(num) : setClicked(null);
   };
   
-  const handleFile = (num) => {
-    let filename = 'resources/';
-    if (num < 10) {
-      filename += '0';
-    }
-    filename += num + ".txt";
-    
-    const reader = new XMLHttpRequest();
-  
-    const loadFile = () => {
-      reader.open('get', filename, true);
-      reader.onreadystatechange = displayContents;
-      reader.send(null);
-    };
-  
-    const displayContents = () => {
-      if(reader.readyState === 4) {
-        const rawText = reader.responseText;
-        console.log(rawText);
-        console.log(typeof rawText);
-        const array = rawText.split('\n');
-        console.log(array);
-        setResourceArray(array);
-      }
-    };
-    
-    loadFile();
-    displayContents();
-  };
-  
   return (
     <div className="App">
       <div id="calendar">
-            <First clicked={clicked} handleClick={handleClick} resourceArray={resourceArray}/>
-            <Second clicked={clicked} handleClick={handleClick} resourceArray={resourceArray}/>
+            <First clicked={clicked} handleClick={handleClick}/>
+            <Second clicked={clicked} handleClick={handleClick}/>
             <Third clicked={clicked} handleClick={handleClick}/>
             <Fourth clicked={clicked} handleClick={handleClick}/>
             <Fifth clicked={clicked} handleClick={handleClick}/>

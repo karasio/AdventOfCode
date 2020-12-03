@@ -12,7 +12,7 @@ function Second({ clicked, handleClick }) {
     
       const reader = new XMLHttpRequest();
     
-      const loadFile = async () => {
+      const loadFile = () => {
         reader.open('get', filename, true);
         reader.onreadystatechange = displayContents;
         reader.send(null);
@@ -38,8 +38,7 @@ function Second({ clicked, handleClick }) {
         }
       };
     
-      loadFile()
-        .then(() => displayContents());
+      loadFile();
     };
     
     handleFile()
