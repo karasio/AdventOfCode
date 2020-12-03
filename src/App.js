@@ -1,42 +1,102 @@
 import './App.css';
-import {
-  BrowserRouter as Router,
-  Switch, Route, Link
-} from 'react-router-dom';
+
+import React, {useState} from "react";
+
 import First from "./components/First";
 import Second from "./components/Second";
-import Home from "./components/Home";
+import Third from "./components/Third";
+import Fourth from "./components/Fourth";
+import Fifth from "./components/Fifth";
+import Sixth from "./components/Sixth";
+import Seventh from "./components/Seventh";
+import Eighth from "./components/Eighth";
+import Nineth from "./components/Nineth";
+import Tenth from "./components/Tenth";
+import Eleventh from "./components/Eleventh";
+import Twelfth from "./components/Twelfth";
+import Thirteenth from "./components/Thirteenth";
+import Fourteenth from "./components/Fourteenth";
+import Fifteenth from "./components/Fifteenth";
+import Sixteenth from "./components/Sixteenth";
+import Seventeenth from "./components/Seventeenth";
+import Eighteenth from "./components/Eighteenth";
+import Nineteenth from "./components/Nineteenth";
+import Twentieth from "./components/Twentieth";
+import Twentyfirst from "./components/Twentyfirst";
+import Twentysecond from "./components/Twentysecond";
+import Twentythird from "./components/Twentythird";
+import Twentyfourth from "./components/Twentyfourth";
 
 function App() {
-  const padding = {
-    padding: 5
+  const [clicked, setClicked] = useState(null);
+  const [resourceArray, setResourceArray] = useState([]);
+  
+  
+  
+  const handleClick = (num) =>{
+    console.log("handleClick with value: ", num);
+    // handleFile(num);
+    clicked !== num ? setClicked(num) : setClicked(null);
   };
+  
+  const handleFile = (num) => {
+    let filename = 'resources/';
+    if (num < 10) {
+      filename += '0';
+    }
+    filename += num + ".txt";
+    
+    const reader = new XMLHttpRequest();
+  
+    const loadFile = () => {
+      reader.open('get', filename, true);
+      reader.onreadystatechange = displayContents;
+      reader.send(null);
+    };
+  
+    const displayContents = () => {
+      if(reader.readyState === 4) {
+        const rawText = reader.responseText;
+        console.log(rawText);
+        console.log(typeof rawText);
+        const array = rawText.split('\n');
+        console.log(array);
+        setResourceArray(array);
+      }
+    };
+    
+    loadFile();
+    displayContents();
+  };
+  
   return (
     <div className="App">
-      <Router>
-        <div id="menu">
-          <Link style={padding} to="/">home</Link>
-          <Link style={padding} to="/first">01</Link>
-          <Link style={padding} to="/second">02</Link>
-        </div>
-        <br/>
-        <div>
-          <a href="https://adventofcode.com/2020/about">AdventOfCode</a>
-        </div>
-        <Switch>
-          <Route path="/first">
-            <First/>
-          </Route>
-          <Route path="/second">
-            <Second/>
-          </Route>
-          <Route path="/">
-            <Home/>
-          </Route>
-        </Switch>
-    
-
-      </Router>
+      <div id="calendar">
+            <First clicked={clicked} handleClick={handleClick} resourceArray={resourceArray}/>
+            <Second clicked={clicked} handleClick={handleClick} resourceArray={resourceArray}/>
+            <Third clicked={clicked} handleClick={handleClick}/>
+            <Fourth clicked={clicked} handleClick={handleClick}/>
+            <Fifth clicked={clicked} handleClick={handleClick}/>
+            <Sixth clicked={clicked} handleClick={handleClick}/>
+            <Seventh clicked={clicked} handleClick={handleClick}/>
+            <Eighth clicked={clicked} handleClick={handleClick} />
+            <Nineth clicked={clicked} handleClick={handleClick} />
+            <Tenth clicked={clicked} handleClick={handleClick} />
+            <Eleventh clicked={clicked} handleClick={handleClick} />
+            <Twelfth clicked={clicked} handleClick={handleClick} />
+            <Thirteenth clicked={clicked} handleClick={handleClick} />
+            <Fourteenth clicked={clicked} handleClick={handleClick} />
+            <Fifteenth clicked={clicked} handleClick={handleClick} />
+            <Sixteenth clicked={clicked} handleClick={handleClick} />
+            <Seventeenth clicked={clicked} handleClick={handleClick} />
+            <Eighteenth clicked={clicked} handleClick={handleClick} />
+            <Nineteenth clicked={clicked} handleClick={handleClick} />
+            <Twentieth clicked={clicked} handleClick={handleClick} />
+            <Twentyfirst clicked={clicked} handleClick={handleClick} />
+            <Twentysecond clicked={clicked} handleClick={handleClick} />
+            <Twentythird clicked={clicked} handleClick={handleClick} />
+            <Twentyfourth clicked={clicked} handleClick={handleClick} />
+      </div>
     </div>
   );
 }

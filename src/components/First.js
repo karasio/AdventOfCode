@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 
-function First() {
+function First({ clicked, handleClick, resourceArray }) {
   const [twoFactors, setTwoFactors] = useState([]);
   const [threeFactors, setThreeFactors] = useState([]);
   
@@ -207,6 +207,7 @@ function First() {
       1282,
       1306,
     ];
+    
     const sumTwo = () => {
       numbers.sort();
       let number;
@@ -261,7 +262,7 @@ function First() {
     sumTwo();
     sumThree();
     
-  },[]);
+  },[resourceArray]);
   
   const renderTwos = () => {
     return (
@@ -292,9 +293,11 @@ function First() {
   };
   
   return (
-    <div>
-      {renderTwos()}
-      {renderThrees()}
+    <div
+      className="day"
+      onClick={() => handleClick(1)}
+    >
+      {clicked === 1 ? <div>{renderTwos()}{renderThrees()} </div> : <div className="bigNum">1</div>}
     </div>
   )
 }

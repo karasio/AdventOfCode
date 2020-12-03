@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="358b1c37-63d0-43f5-a191-9a7c484328d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/First.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/First.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Second.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Second.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/numbers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/01.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +34,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -39,9 +46,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/media" />
+      <recent name="$PROJECT_DIR$/public/resources" />
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/media/resources" />
+      <recent name="$PROJECT_DIR$/src/media" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -81,7 +94,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606817421969</updated>
-      <workItem from="1606817425131" duration="10447000" />
+      <workItem from="1606817425131" duration="19249000" />
+      <workItem from="1606918431663" duration="8382000" />
     </task>
     <servers />
   </component>
@@ -89,9 +103,41 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="854" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606845053596">
+      <screen x="25" y="23" width="1655" height="1027" />
+    </state>
+    <state x="854" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/25.23.1655.1027@25.23.1655.1027" timestamp="1606845053596" />
+    <state width="1399" height="280" key="GridCell.Tab.0.bottom" timestamp="1606891826903">
+      <screen x="25" y="23" width="1655" height="1027" />
+    </state>
+    <state width="1399" height="280" key="GridCell.Tab.0.bottom/25.23.1655.1027@25.23.1655.1027" timestamp="1606891826903" />
+    <state width="1399" height="280" key="GridCell.Tab.0.center" timestamp="1606891826902">
+      <screen x="25" y="23" width="1655" height="1027" />
+    </state>
+    <state width="1399" height="280" key="GridCell.Tab.0.center/25.23.1655.1027@25.23.1655.1027" timestamp="1606891826902" />
+    <state width="1399" height="280" key="GridCell.Tab.0.left" timestamp="1606891826900">
+      <screen x="25" y="23" width="1655" height="1027" />
+    </state>
+    <state width="1399" height="280" key="GridCell.Tab.0.left/25.23.1655.1027@25.23.1655.1027" timestamp="1606891826900" />
+    <state width="1399" height="280" key="GridCell.Tab.0.right" timestamp="1606891826902">
+      <screen x="25" y="23" width="1655" height="1027" />
+    </state>
+    <state width="1399" height="280" key="GridCell.Tab.0.right/25.23.1655.1027@25.23.1655.1027" timestamp="1606891826902" />
     <state x="58" y="223" key="SettingsEditor" timestamp="1606826610701">
       <screen x="25" y="23" width="1655" height="1027" />
     </state>
     <state x="58" y="223" key="SettingsEditor/25.23.1655.1027@25.23.1655.1027" timestamp="1606826610701" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Second.js</url>
+          <line>26</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
