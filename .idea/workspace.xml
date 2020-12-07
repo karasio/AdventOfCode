@@ -4,7 +4,7 @@
     <list default="true" id="358b1c37-63d0-43f5-a191-9a7c484328d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Fifth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Fifth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sixth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sixth.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,15 +41,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/resources" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/media/resources" />
       <recent name="$PROJECT_DIR$/src/media" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -93,7 +93,8 @@
       <workItem from="1606918431663" duration="8453000" />
       <workItem from="1607004184521" duration="5979000" />
       <workItem from="1607180136044" duration="2666000" />
-      <workItem from="1607183253404" duration="9769000" />
+      <workItem from="1607183253404" duration="9814000" />
+      <workItem from="1607324677032" duration="8016000" />
     </task>
     <servers />
   </component>
@@ -101,10 +102,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="990" y="346" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607324819493">
+      <screen x="25" y="23" width="1655" height="1027" />
+    </state>
+    <state x="990" y="346" key="#com.intellij.fileTypes.FileTypeChooser/25.23.1655.1027@25.23.1655.1027" timestamp="1607324819493" />
     <state x="854" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606845053596">
       <screen x="25" y="23" width="1655" height="1027" />
     </state>
     <state x="854" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/25.23.1655.1027@25.23.1655.1027" timestamp="1606845053596" />
+    <state x="847" y="140" key="CommitChangelistDialog2" timestamp="1607326280029">
+      <screen x="25" y="23" width="1655" height="1027" />
+    </state>
+    <state x="847" y="140" key="CommitChangelistDialog2/25.23.1655.1027@25.23.1655.1027" timestamp="1607326280029" />
     <state width="1399" height="280" key="GridCell.Tab.0.bottom" timestamp="1606891826903">
       <screen x="25" y="23" width="1655" height="1027" />
     </state>
@@ -129,6 +138,10 @@
       <screen x="25" y="23" width="1655" height="1027" />
     </state>
     <state width="500" height="445" key="SwitcherDM/25.23.1655.1027@25.23.1655.1027" timestamp="1607007107659" />
+    <state x="930" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1607327536361">
+      <screen x="25" y="23" width="1655" height="1027" />
+    </state>
+    <state x="930" y="250" width="670" height="676" key="search.everywhere.popup/25.23.1655.1027@25.23.1655.1027" timestamp="1607327536361" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
