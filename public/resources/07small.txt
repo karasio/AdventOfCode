@@ -1,0 +1,11 @@
+shiny gold bags contain 3 pale silver bags, 3 mirrored yellow bags, 2 shiny black bags, 2 light magenta bags.
+  pale silver bags contain 5 drab black bags.
+     drab black bags contain no other bags.
+  mirrored yellow bags contain 2 muted turquoise bags, 4 drab chartreuse bags.
+    muted turquoise bags contain 2 plaid green bags, 2 light yellow bags.
+      light yellow bags contain no other bags.
+      plaid green bags contain no other bags.
+    drab chartreuse bags contain no other bags.
+  shiny black bags contain no other bags.
+  light magenta bags contain 3 faded crimson bags.
+    faded crimson bags contain no other bags.

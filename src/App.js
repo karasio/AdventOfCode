@@ -31,7 +31,7 @@ function App() {
   const [clicked, setClicked] = useState(null);
   
   const handleClick = (num) =>{
-    console.log("handleClick with value: ", num);
+    // console.log("handleClick with value: ", num);
     // handleFile(num);
     clicked !== num ? setClicked(num) : setClicked(null);
   };

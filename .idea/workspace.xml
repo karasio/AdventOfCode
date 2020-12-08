@@ -4,7 +4,8 @@
     <list default="true" id="358b1c37-63d0-43f5-a191-9a7c484328d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sixth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sixth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Seventh.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Seventh.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +95,8 @@
       <workItem from="1607004184521" duration="5979000" />
       <workItem from="1607180136044" duration="2666000" />
       <workItem from="1607183253404" duration="9814000" />
-      <workItem from="1607324677032" duration="8016000" />
+      <workItem from="1607324677032" duration="8154000" />
+      <workItem from="1607417406459" duration="23096000" />
     </task>
     <servers />
   </component>
@@ -102,10 +104,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="990" y="346" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607324819493">
+    <state x="990" y="346" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607417647041">
       <screen x="25" y="23" width="1655" height="1027" />
     </state>
-    <state x="990" y="346" key="#com.intellij.fileTypes.FileTypeChooser/25.23.1655.1027@25.23.1655.1027" timestamp="1607324819493" />
+    <state x="990" y="346" key="#com.intellij.fileTypes.FileTypeChooser/25.23.1655.1027@25.23.1655.1027" timestamp="1607417647041" />
     <state x="854" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606845053596">
       <screen x="25" y="23" width="1655" height="1027" />
     </state>
